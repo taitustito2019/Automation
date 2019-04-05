@@ -12,12 +12,13 @@ namespace ScreenPlay.Test
     public class BaseTest
     {
         protected IWebDriver Driver;
-        protected string Url = "http://verstandqa.com/ejercicios/";
+        public string Url = "http://verstandqa.com/ejercicios/";
 
         [SetUp]
         public void SetUpBase()
         {
             Driver = new ChromeDriver();
+            Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(100);
             Driver.Navigate().GoToUrl(Url);
         }
 

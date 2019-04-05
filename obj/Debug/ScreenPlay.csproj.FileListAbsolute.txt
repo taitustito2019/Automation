@@ -34,3 +34,5 @@ C:\Users\capacitacion\Source\Repos\Automation\bin\Debug\WebDriver.Support.xml
 C:\Users\capacitacion\Source\Repos\Automation\obj\Debug\ScreenPlay.csprojAssemblyReference.cache
 C:\Users\capacitacion\Source\Repos\Automation\obj\Debug\ScreenPlay.csproj.CoreCompileInputs.cache
 C:\Users\capacitacion\Source\Repos\Automation\obj\Debug\ScreenPlay.csproj.CopyComplete
+C:\Users\capacitacion\Source\Repos\Automation\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\capacitacion\Source\Repos\Automation\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
