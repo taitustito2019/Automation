@@ -1,20 +1,24 @@
-﻿using OpenQA.Selenium;
-using ScreenPlay.Actions;
-using ScreenPlay.UI;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿// <copyright file="SelectBenefLinkedin.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 namespace ScreenPlay.Tasks
 {
-    class SelectBenefLinkedin
+    using OpenQA.Selenium;
+    using ScreenPlay.Actions;
+    using ScreenPlay.UI;
+
+    /// <summary>
+    /// Selection benef.
+    /// </summary>
+    public class SelectBenefLinkedin
     {
+        /// <summary>
+        /// Selection benef.
+        /// </summary>
+        /// <param name="driver">driver.</param>
         public static void SelectBenef(IWebDriver driver)
-        { 
-            Click.On(driver, BenefitsMicrosoft.LinkLinkedin);
+        {
+            Click.On(driver, BenefitsMicrosoft.GetLinkLinkedin());
         }
     }
-
 }

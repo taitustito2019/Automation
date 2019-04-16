@@ -78,13 +78,20 @@
     <Compile Include="Tasks\IsEmployeePresent.cs" />
     <Compile Include="Tasks\Login.cs" />
     <Compile Include="Test\LoginTest.cs" />
-    <Compile Include="UI\BenefitsMicrosoftUI.cs" />
+    <Compile Include="UI\BenefitsMicrosoft.cs" />
     <Compile Include="UI\EmployeeUI.cs" />
     <Compile Include="UI\LoginOutlookUI.cs" />
     <Compile Include="UI\LoginUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="stylecop.json" />
+    <None Include="stylecop1.json" />
+    <None Include="stylecop2.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="packages\StyleCop.Analyzers.Unstable.1.1.1.114\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="packages\StyleCop.Analyzers.Unstable.1.1.1.114\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
