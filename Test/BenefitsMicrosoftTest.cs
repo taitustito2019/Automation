@@ -20,11 +20,10 @@ namespace ScreenPlay.Test
         [SetUp]
         public void SetUp()
         {
-            // this.Url="https://my.visualstudio.com/benefits";
             this.Driver.Url = "https://my.visualstudio.com/benefits";
 
+            // this.Url="https://my.visualstudio.com/benefits";
             // SetUpBase("https://my.visualstudio.com/benefits");
-            // Driver.Url="https://my.visualstudio.com/benefits";
         }
 
         /// <summary>
